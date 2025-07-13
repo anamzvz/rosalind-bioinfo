@@ -11,7 +11,6 @@ This repository contains Python scripts for bioinformatics algorithms, from begi
 
 
 ## Skills demonstrated
-- Python programming (Biopython, NumPy, pandas)
+- Python programming 
 - Algorithm design for genomics
 - File handling (FASTA, FASTQ)
-- Data visualization (Matplotlib, Seaborn)
