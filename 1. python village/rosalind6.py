@@ -3,10 +3,12 @@ s = ("When I find myself in times of trouble Mother Mary comes to me Speaking wo
 words = s.split(" ")
 diccionario = {}  # Crea un diccionario
 for word in words:
-    if word in diccionario:  # Cada vez que se encuentre una palabra sumará uno.
+    if word in diccionario:
+        # Cada vez que se encuentre una palabra sumará uno.
         diccionario[word] += 1
-    else:  
-        diccionario[word] = 1 # Si solo se la encunetra una vez, no sumará más.
+    else:
+        # Si solo se la encunetra una vez, no sumará más.
+        diccionario[word] = 1
 
 # define la palabra y el número de la cuenta cada palabra del diccionario.
 for word, cuenta in diccionario.items():
